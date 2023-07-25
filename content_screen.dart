@@ -33,6 +33,31 @@ class _ContentScreenState extends State<ContentScreen> {
             "assets/images/sofa.png",
             width: 287,
             height: 303,
+          ),
+          SizedBox(
+            height: 21,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "Room sofa",
+                style: TextStyle(fontSize: 32, fontWeight: FontWeight.w600),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5.0),
+                  color: Color(0xffE7E7E7),
+                ),
+                child: Row(
+                  children: [
+                  Icon(Icons.remove),
+                  Text("1"),
+                  Icon(Icons.add),
+
+                ],),
+              )
+            ],
           )
         ],
       ),
