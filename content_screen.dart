@@ -77,7 +77,25 @@ class _ContentScreenState extends State<ContentScreen> {
                     color: Colors.black, fontSize: 14.00),),
           ),
           SizedBox(
-            height: 26.0,
+            height: 13.0,
+          ),
+          Row(
+            children: [
+              Text(
+                "2500\$",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
+              ),
+              Spacer(),
+              ElevatedButton(
+                child: Text(
+                  'Add to cart',
+                  style: TextStyle(color: Colors.white),
+                ),
+                style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xff7993AE)),
+                onPressed: () {},
+              ),
+            ],
           )
         ],
       ),
