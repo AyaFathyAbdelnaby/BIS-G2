@@ -58,6 +58,26 @@ class _ContentScreenState extends State<ContentScreen> {
                 ],),
               )
             ],
+          ),
+          SizedBox(
+            height: 14.00,
+          ),Row(
+            children: const [
+              Icon(Icons.circle, color: Colors.blueGrey,),
+              Icon(Icons.circle, color: Colors.brown,),
+              Icon(Icons.circle, color: Colors.black,),
+            ],
+          ),
+          SizedBox(
+            height:14.0 ,
+          ),
+          Expanded(
+            child: Text("Drawing Room Wooden Sofa Set is solid wooden sofa set which you can contrast the cushion of any color. The good sight caused ue to the furniture help us relax for a longer time.",
+              style: TextStyle(
+                    color: Colors.black, fontSize: 14.00),),
+          ),
+          SizedBox(
+            height: 26.0,
           )
         ],
       ),
